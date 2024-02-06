@@ -1,8 +1,7 @@
-
 import random
 
 def choose_word():
-    word_list = ["chery", "grape", "lemon","straw", "melon", "peach", "plums", "leash"]
+    word_list = ["party", "grape", "lemon", "straw", "melon", "peach", "plums", "leash"]
     return random.choice(word_list)
 
 def get_guess():
